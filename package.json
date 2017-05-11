@@ -1,0 +1,12 @@
+{
+  "name": "ga-cfu",
+  "version": "0.0.0",
+  "description": "web API for real-time checks for understanding",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jsm",
+  "license": "ISC"
+}
