@@ -3,7 +3,7 @@
 module.exports = function (sequelize, DataTypes) {
   const CfUScore = sequelize.define('CfUScore', {
     score: DataTypes.INTEGER,
-    comment: DataTypes.STRING
+    comment: DataTypes.TEXT
   }, {
     classMethods: {
       associate: function (models) {

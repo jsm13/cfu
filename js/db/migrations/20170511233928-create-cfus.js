@@ -22,8 +22,11 @@ module.exports = {
       open: {
         type: Sequelize.BOOLEAN
       },
-      comment: {
+      title: {
         type: Sequelize.STRING
+      },
+      comment: {
+        type: Sequelize.TEXT
       },
       createdAt: {
         type: Sequelize.DATE,

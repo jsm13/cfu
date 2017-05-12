@@ -20,7 +20,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       comment: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       CfUId: {
         type: Sequelize.INTEGER,
